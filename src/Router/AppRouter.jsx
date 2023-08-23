@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import { Navbar } from "../Components/NavBar"
 import { DashboardPage } from "../Pages/DashboardPage"
 import { HomePage } from "../Pages/HomePage"
-import { LoginPage } from "../Components/Login"
+import { LoginPage } from "../Pages/LoginPage"
 
 export const AppRouter = () => {
   return <>
