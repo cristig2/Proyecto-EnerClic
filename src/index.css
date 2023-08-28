@@ -53,7 +53,7 @@ nav a {
 	color: #000;
 }
 
-/*  */
+/* Login */
 
 .wrapper-login {
 	display: flex;
@@ -89,7 +89,7 @@ nav a {
     height: 25px;
 }
 
-.login-button-login {
+.button-login {
     margin: 0 auto;
     padding: 6px;
     width: 100px;
@@ -101,10 +101,67 @@ nav a {
     cursor: pointer;
   }
   
-  .login-button-login:hover {
-    background-color: rgba(8,116,54, 0.8);;
+  .button-login:hover {
+    background-color:#2F4F4F;
   }
 
-  /*  */
+  /* Form */
 
+  .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  @media (max-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.form-control {
+  margin: 1rem;
+  width: 100%;
+  max-width: 300px;
+  @media (max-width: 600px) {
+   max-width: 250px;
+  }
+}
+
+.MuiInputBase-root {
+	border-color:  rgba(8,116,54, 0.5);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px  rgba(8,116,54, 0.5);
+    outline: 0 none;
+}
+
+.submit-button {
+    border: 1px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(8,116,54, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+	background-color: rgba(8,116,54, 0.8);
+}
+  /* Charts */
+
+  .chart-box {
+	display: flex;
+	justify-content: center;
+	margin:10px 20px;
+  }
+
+  .chart-title {
+	text-align: center;
+	font-size: 24px;
+	color: #2F4F4F;
+	margin-bottom: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  /* Table */
   

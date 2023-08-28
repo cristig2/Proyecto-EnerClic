@@ -1,6 +1,16 @@
 import React from 'react'
-import { SearchForm } from '../Components/SearchForm'
+import { LinesChart } from '../Components/LinesChart'
+import { BarChart } from '../Components/BarChart'
+import DataForm from '../Components/SearchForm'
 
 export const DashboardPage = () => {
-  return (<SearchForm />)
+  return (
+  <div>
+    <br />
+    <DataForm />
+    <br /><br />
+    <LinesChart />
+    <br /><br />
+    <BarChart />
+  </div>)
 }
